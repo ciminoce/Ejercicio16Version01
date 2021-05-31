@@ -11,6 +11,7 @@ namespace Ejercicio16Version01
         static void Main(string[] args)
         {
             int unNumero;
+            Console.Clear();//Limpiar la pantalla de la consola
             Console.Write("Ingrese un número entero:");
             unNumero = Convert.ToInt32(Console.ReadLine());
             if (unNumero%2==0)
